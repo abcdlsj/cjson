@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cjson_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/abcdlsj/github/json/my-cjson/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/abcdlsj/github/json/my-cjson/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cjson_test">
+				<Option output="/home/abcdlsj/github/json/my-cjson/cmake-build-debug/cjson_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abcdlsj/github/json/my-cjson/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 cjson_test"/>
+					<CompileFile command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cjson_test/fast">
+				<Option output="/home/abcdlsj/github/json/my-cjson/cmake-build-debug/cjson_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abcdlsj/github/json/my-cjson/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 cjson_test/fast"/>
+					<CompileFile command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/abcdlsj/github/json/my-cjson/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cjson">
+				<Option output="/home/abcdlsj/github/json/my-cjson/cmake-build-debug/libcjson.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abcdlsj/github/json/my-cjson/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 cjson"/>
+					<CompileFile command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cjson/fast">
+				<Option output="/home/abcdlsj/github/json/my-cjson/cmake-build-debug/libcjson.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abcdlsj/github/json/my-cjson/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 cjson/fast"/>
+					<CompileFile command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -j16 -f &quot;/home/abcdlsj/github/json/my-cjson/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/abcdlsj/github/json/my-cjson/cjson.c">
+			<Option target="cjson"/>
+		</Unit>
+		<Unit filename="/home/abcdlsj/github/json/my-cjson/cjson.h">
+			<Option target="cjson"/>
+		</Unit>
+		<Unit filename="/home/abcdlsj/github/json/my-cjson/test.c">
+			<Option target="cjson_test"/>
+		</Unit>
+		<Unit filename="/home/abcdlsj/github/json/my-cjson/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

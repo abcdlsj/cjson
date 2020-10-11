@@ -1,0 +1,4 @@
+/home/abcdlsj/github/json/my-cjson/build/CMakeFiles/edit_cache.dir
+/home/abcdlsj/github/json/my-cjson/build/CMakeFiles/cjson_test.dir
+/home/abcdlsj/github/json/my-cjson/build/CMakeFiles/rebuild_cache.dir
+/home/abcdlsj/github/json/my-cjson/build/CMakeFiles/cjson.dir
