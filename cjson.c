@@ -629,7 +629,6 @@ void cjson_popback_array_element(cjson_value* v) {
 cjson_value* cjson_insert_array_element(cjson_value* v, size_t index) {
     size_t i;
     assert(v != NULL && v->type == CJSON_ARRAY && index <= v->u.a.size);
-    /* \todo */
     if (v->u.a.size == v->u.a.capacity) {
         cjson_reserve_array(v, v->u.a.capacity == 0 ? 1 : v->u.a.capacity * 2);
     }
@@ -637,12 +636,10 @@ cjson_value* cjson_insert_array_element(cjson_value* v, size_t index) {
         v->u.a.e[i] = v->u.a.e[i - 1];
     }
     return &v->u.a.e[index];
-    return NULL;
 }
 
 void cjson_erase_array_element(cjson_value* v, size_t index, size_t count) {
     assert(v != NULL && v->type == CJSON_ARRAY && index + count <= v->u.a.size);
-    /* \todo */
     size_t i;
     if(!count) {
         return;
