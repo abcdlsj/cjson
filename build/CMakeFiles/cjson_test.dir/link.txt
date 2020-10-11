@@ -1,1 +1,0 @@
-/sbin/cc  -ansi -pedantic -Wall -g -rdynamic CMakeFiles/cjson_test.dir/test.c.o -o cjson_test  libcjson.a 
