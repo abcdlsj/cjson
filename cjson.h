@@ -1,7 +1,6 @@
 #pragma once
-#include <bits/stdc++.h>
+#include <vector>
 
 int func() {
-    std::cout << "hello world\n" << std::endl;
     return 0;
 }
